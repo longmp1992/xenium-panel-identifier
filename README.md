@@ -108,8 +108,11 @@ docker run --rm -p 7860:7860 xenium-panel-identifier:0.1.0
 
 The image sets `MAX_UPLOAD_MB=100` to mirror Serve; add `-e MAX_UPLOAD_MB=` to lift it locally.
 
-The Docker image has not been built or run yet: the machine this was developed on has no Docker. The app itself
-was tested by running `python main.py` and uploading real files through it.
+The image is built by GitHub Actions (`.github/workflows/docker.yml`, run manually with a tag), which also checks
+that the container starts, serves the page and runs as user id 1000, then pushes to
+`ghcr.io/longmp1992/xenium-panel-identifier:<tag>`.
+
+Deployed at https://xenium-panel-identifier.serve.scilifelab.se (SciLifeLab Serve, image tag 0.1.0).
 
 ## Files larger than 100 MB
 
