@@ -1,0 +1,7 @@
+__pycache__/
+.claude/
+tmp/
+*.parquet
+test_outputs/*
+!test_outputs/validation.jsonl
+deck/

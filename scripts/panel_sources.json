@@ -1,0 +1,109 @@
+{
+  "_comment": "Official 10x Genomics pre-designed Xenium panels. JSON URLs were copied from the two index pages below (Xenium Panel Designer support pages). 'genes_stated' is the 'Genes targeted' number printed on that page and is only used to cross-check the parsed file. To add a panel, copy its gene_panel JSON link from the index page into this list and re-run build_panel_library.py.",
+  "index_pages": [
+    "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+    "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-prime-5k"
+  ],
+  "links_collected_on": "2026-11-20",
+  "panels": [
+    {
+      "id": "hBrain",
+      "name": "Xenium Human Brain Gene Expression Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 266,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1718660433/software-support/Xenium-panels/gene_panel_json_files/xenium_human_brain_gene_expression.json"
+    },
+    {
+      "id": "hBreast",
+      "name": "Xenium Human Breast Gene Expression Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 280,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1718660433/software-support/Xenium-panels/gene_panel_json_files/xenium_human_breast_gene_expression.json"
+    },
+    {
+      "id": "hColon",
+      "name": "Xenium Human Colon Gene Expression Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 322,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1694725992/software-support/Xenium-panels/gene_panel_json_files/human_colon_gene_expression.json"
+    },
+    {
+      "id": "hImmunoOncology",
+      "name": "Xenium Human Immuno-Oncology Profiling Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 380,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1707847003/software-support/Xenium-panels/gene_panel_json_files/xenium_human_immuno_oncology_profiling.json"
+    },
+    {
+      "id": "hLung",
+      "name": "Xenium Human Lung Gene Expression Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 289,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1697489942/software-support/Xenium-panels/gene_panel_json_files/human_lung_gene_expression.json"
+    },
+    {
+      "id": "hMulti",
+      "name": "Xenium Human Multi-Tissue and Cancer Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 377,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1694725993/software-support/Xenium-panels/gene_panel_json_files/human_multi_gene_expression.json"
+    },
+    {
+      "id": "hSkin",
+      "name": "Xenium Human Skin Gene Expression Panel",
+      "species": "Human",
+      "chemistry": "Xenium v1",
+      "genes_stated": 260,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1694725994/software-support/Xenium-panels/gene_panel_json_files/human_skin_gene_expression.json"
+    },
+    {
+      "id": "mBrain",
+      "name": "Xenium Mouse Brain Gene Expression Panel",
+      "species": "Mouse",
+      "chemistry": "Xenium v1",
+      "genes_stated": 247,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1694725994/software-support/Xenium-panels/gene_panel_json_files/mouse_brain_gene_expression.json"
+    },
+    {
+      "id": "mMulti",
+      "name": "Xenium Mouse Tissue Atlassing Panel",
+      "species": "Mouse",
+      "chemistry": "Xenium v1",
+      "genes_stated": 379,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-v1",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1694725994/software-support/Xenium-panels/gene_panel_json_files/mouse_multi_gene_expression.json"
+    },
+    {
+      "id": "hPrime5K",
+      "name": "Xenium Prime 5K Human Pan Tissue & Pathways Panel",
+      "species": "Human",
+      "chemistry": "Xenium Prime 5K",
+      "genes_stated": 5001,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-prime-5k",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1715644508/software-support/Xenium-panels/5K_panel_files/xenium_human_5k_gene_expression.json"
+    },
+    {
+      "id": "mPrime5K",
+      "name": "Xenium Prime 5K Mouse Pan Tissue & Pathways Panel",
+      "species": "Mouse",
+      "chemistry": "Xenium Prime 5K",
+      "genes_stated": 5006,
+      "index_page": "https://www.10xgenomics.com/support/software/xenium-panel-designer/latest/tutorials/pre-designed-xenium-prime-5k",
+      "json_url": "https://cdn.10xgenomics.com/raw/upload/v1715203508/software-support/Xenium-panels/5K_panel_files/xenium_mouse_5k_gene_expression.json"
+    }
+  ]
+}
